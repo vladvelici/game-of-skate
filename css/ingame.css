@@ -1,0 +1,63 @@
+#gameContainer {
+    width:100%;
+}
+
+#players div {
+    margin:4px;
+    padding:4px;
+    font-size:17px;
+    border:1px solid #999;
+}
+
+#players {
+    width:300px;
+    display:inline-block;
+}
+.score {
+    float:right;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+#statusbar {
+    width:600px;
+    padding:3px;
+    margin:0px auto 0px auto;
+}
+#currentTrick {
+    display:inline-block;
+    font-size:30px;
+    font-weight:bold;
+    overflow:auto;
+    height:60px;
+}
+#timeRemaining {
+    display:none;
+    font-size:50px;
+    font-weight:bold;
+    padding:5px;
+    margin-right:50px;
+}
+#wait {
+    width:100%;
+    height:300px;
+    text-align:center;
+    padding-top:100px;
+    font-size:50px;
+    font-weight:bold;
+    color:#fff;
+    background-color:rgba(0,0,0,0.6);
+    position:relative;
+    z-index:6;
+
+}
+.playerMe .pName {
+	color:#400;font-weight:bold;
+}
+.toTrick {
+	visibility:hidden;
+}
+.lead {
+	background-color:#cfc;
+}
